@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martel:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: rgb(30, 131, 179);
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.nav-list > li {
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    font-family: Cal Sans, sans-serif;
+    text-decoration: none;
+}
+
+.nav-list > li > a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.titulo {
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    font-family: Cal Sans, sans-serif;
+    letter-spacing: 3px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 80px;
+    gap: 40px;
+    
+}
+
+h1 {
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: start;
+    font-family: Poppins, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 20px;
+    text-align: start;
+    font-family: Martel, sans-serif;
+    margin-top: 10px;
+    color: rgb(33, 37, 41);
+    font-weight: 400;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.neto {
+    
+    width: 730px;
+    border-radius: 20px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px;
+    gap: 40px;
+}
+
+.patro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.imgs {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(30, 131, 179);
+    padding: 60px;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px;
+    gap: 40px;
+}
+
+.pro {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
